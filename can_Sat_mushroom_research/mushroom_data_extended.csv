@@ -1,0 +1,13 @@
+Mushroom Name,Avg. Price per kg (PLN),Growth Time (Days),Edible,Substrate Type,Optimal Temp (°C)
+Pieczarki,13.5,15-20,Yes,Compost,20-25
+Kurki,50.0,2-5,Yes,Soil,15-20
+Podgrzybki,47.5,3-7,Yes,Soil,15-20
+Borowiki (Prawdziwki),35.0,3-10,Yes,Soil,15-20
+Maślaki,20.0,1-3,Yes,Soil,15-20
+Kanie (Czubajki),12.0,4,Yes (young specimens),Soil,15-25
+Koźlarze,30.0,1-6,Yes,Soil,15-20
+Opieńki,25.0,3-4,Yes (after cooking),Wood,15-25
+Rydze,50.0,5-8,Yes,Soil,15-20
+Oyster (Pleurotus),15-25,3-5,Yes,Sawdust,15-25
+Shiitake,30-40,5-7,Yes,Hardwood,20-25
+Enoki,20-30,4-6,Yes,Agar,10-20
