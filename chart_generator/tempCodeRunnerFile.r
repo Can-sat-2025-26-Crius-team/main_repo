@@ -1,0 +1,31 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Time points (in minutes)
+time = np.array([0, 5, 10, 15, 20, 25, 30])
+
+# Energy usage (in mAh) for three stages
+energy = np.array([10, 10, 100, 100, 80, 60, 50])
+
+# Plotting the energy usage line
+plt.plot(time, energy, marker='o', linestyle='-', color='red', label='Energy Usage')
+
+# Shade the zones
+plt.fill_between([0, 5], 0, 120, color='lightblue', alpha=0.3, label='Pre-Launch')
+plt.fill_between([5, 15], 0, 120, color='lightgreen', alpha=0.3, label='Launch')
+plt.fill_between([15, 30], 0, 120, color='lightyellow', alpha=0.3, label='Post-Launch')
+
+# Add vertical lines for section boundaries
+plt.axvline(x=5, color='blue', linestyle='--')
+plt.axvline(x=15, color='blue', linestyle='--')
+plt.axvline(x=25, color='blue', linestyle='--')
+
+# Labels and title
+plt.xlabel('Time (min)')
+plt.ylabel('Energy Usage (mAh)')
+plt.title('Mission Energy Usage')
+plt.grid(True)
+plt.legend()
+
+# Display
+plt.show()
